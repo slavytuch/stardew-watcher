@@ -123,4 +123,10 @@ return [
         'store' => env('APP_MAINTENANCE_STORE', 'database'),
     ],
 
+    'basic' => [
+        'auth' => env('BASIC_AUTH_LOGIN', ''),
+        'pass' => env('BASIC_AUTH_PASS', '')
+    ],
+
+    'user-agent' => env('USER_AGENT', 'Stardew Watcher')
 ];
